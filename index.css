@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*# - id
+. - class!!*/
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*Start of Nav Bar*/
+nav {
+	font-family: 'Playfair Display', sans-serif;
+	text-transform: uppercase;
+	background-color: #A91643;
+}
+
+.navbar-toggler {
+	background-color: transparent;
+	color: #DD9352;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28221, 147, 82, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link {
+	font-size: 24px;
+	color: #DD9352;
+}
+
+#logo-pic {
+	width: 60px;
+	height: 60px;
+}
+
+/*End of Nav Bar*/
+
+/*Landing Page*/
+.landing-page {
+	background-color: #A91643;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+
+#side-card {
+	height: 450px;
+	width: 350px;
+}
+
+#side-card:hover {
+   animation-name: flip;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(45deg);
+    }
+    25% {
+        transform: rotateY(95deg);
+    }
+    50% {
+    	transform: rotateY(150deg);
+    }
+    75% {
+        transform: rotateY(265deg);
+    }
+    100% {
+        transform: rotateY(365deg);
+    }
+}
+
+#catchphrase {
+	color: white;
+	font-family: 'Racing Sans One',sans-serif;
+	font-size: 10vh;
+	font-weight: 400;
+	letter-spacing: 10px;
+	color: transparent;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px white;
+}
+
+#stick-one a, #stick-two a, #stick-three a {
+	font-family: 'Racing Sans One',sans-serif;
+	font-size: 10vh;
+	letter-spacing: 10px;
+	text-decoration: none;
+	color: transparent;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px white;
+}
+
+#stick-one a:hover:after {
+	content: url(./images/stick-1.png);
+    position: absolute;
+}
+
+#stick-two a:hover:after {
+	content: url(./images/stick-2.png);
+    position: absolute;
+}
+
+#stick-three a:hover:after {
+	content: url(./images/stick-3.png);
+    position: absolute;
+}
+
+#catchphrase a:link:hover {
+    animation-name: sweep;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sweep {
+    0% {
+        color: transparent;
+    }
+    50% {
+        color: #DD9350;
+        -webkit-text-stroke: 1px black;
+    }
+    100% {
+        color: #DD9352;
+        -webkit-text-stroke: 1px black;
+    }
+}
+
+.text {
+	padding-left: 4rem;
+	padding-right: 4rem;
+	font-family: 'Playfair Display',sans-serif;
+	color: #DD9352;
+	font-size: 4vh;
+}
+
+
+/*About Me/Introduction*/
+.about-me {
+	background-color: #301C24;
+	min-height: 70vh;
+	min-width: 90vw;
+}
+
+#description h3 {
+	font-family: 'Racing Sans One',sans-serif;
+	font-size: 5vh;
+	letter-spacing: 10px;
+	color: transparent;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px #DD9352;
+}
+
+#description p {
+	font-family: 'Playfair Display',sans-serif;
+	color: #DFD0C7;
+	font-size: 3vh;
+}
+
+/*Projects/Works*/
+.projects {
+	background-color: #52464C;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+.projects img:hover {
+	background-color: rgba(82, 80, 76, 0.8);
+	border-radius: 47px;
+}
+
+.projects h3 {
+	font-family: 'Racing Sans One',sans-serif;
+	font-size: 5vh;
+	letter-spacing: 10px;
+	color: transparent;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px #DD9352;
+}
+
+/*Contact*/
+
+.contact {
+	background-color: #806454;
+	min-height: 80vh;
+	min-width: 100vw;
+}
+
+.contact h2 {
+	font-family: 'Racing Sans One',sans-serif;
+	font-size: 10vh;
+	letter-spacing: 10px;
+	color: transparent;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px #DD9352;
+}
+
+form > label {
+	font-family: 'Playfair-Display', sans-serif;
+	color: #DD9352;
+}
+
+#form-edit {
+	font-family: 'Playfair-Display', sans-serif;
+	color: #DD9352;
+}
+
+#contact-button {
+	background-color: #A91643;
+	color: white;
+	border-radius: 40px;
+	font-family: 'Playfair Display',sans-serif;
+	text-transform: uppercase;
+	font-size: 1vw;
+	width: 8vw;
+	border: none;
+}
+
+
+#contact-button:hover {
+	background-color: #DD9352;
+	color: black;
+}
+
+
+/*Footer*/
+.socials a {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #DD9352;
+}
+
+
+.socials a:visited, .socials a:link {
+	color: #DD9352;
+	font-size: 3vh;
+	font-family: 'Playfair Display',sans-serif;
+	text-decoration: none;
+}
+
+.socials a:hover {
+	color: white;*/
+}

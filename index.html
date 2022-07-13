@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+
+	<title>Mika's Portfolio</title>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg sticky-top">
+		<div class="container-fluid">
+		  <a class="navbar-brand ms-lg-5 ms-md-2" href="#top"><img src="./images/spade-logo.png" id="logo-pic"></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-5 text-sm-center">
+				   <li class="nav-item">
+				   <a class="nav-link active" aria-current="page" href="#introduction">About Me</a>
+				   </li>
+
+				   <li class="nav-item">
+				   <a class="nav-link" href="#works">Projects</a>
+				   </li>
+
+				   <li class="nav-item">
+				   <a class="nav-link" href="#inquiry">Contacts</a>
+				   </li>
+			  </ul>
+		  </div>
+		</div>
+	</nav>
+
+	<!-- About Me -->
+	<div class="landing-page top">
+		<!-- hey there blah blah -->
+	<div class="container-fluid">
+			<!-- side image -->
+	<div class="row d-flex justify-content-center align-items-center text-center">
+		<div class="col-lg-6 order-2 pt-5"><img src="./images/side-card.png" class="img-fluid" id="side-card"></div>
+		<div class="col-lg-6 order-1" id="catchphrase">
+			<div class="row ms-lg-5 pt-5">
+				<div class="col-12 text-lg-start text-sm-center" id="stick-one"><a href="#inquiry">hey there</a></div>
+			</div>
+
+			<div class="row ms-lg-5">
+				<div class="col-12 text-lg-start text-sm-center">welcome to</div>
+			</div>
+
+			<div class="row ms-lg-5">
+				<div class="col-12 text-lg-start text-sm-center" id="stick-two"><a href="#works">my porfolio</a></div>
+			</div>
+
+			<div class="row ms-lg-5">
+				<div class="col-12 text-lg-start text-sm-center">my name is</div>
+			</div>
+
+			<div class="row ms-lg-5">
+				<div class="col-12 text-lg-start text-sm-center" id="stick-three"><a href="#introduction">mika</a></div>
+			</div>
+		</div>
+	</div>
+		<!--extra -->
+	<div>
+		<p class="text">scroll for more</p>
+	</div>
+	</div>
+
+<!-- About Me -->
+	<div class="about-me" id="introduction">
+	<div class="row d-flex">
+		<div class="col-lg-6 order-sm-1 order-lg-2 text-center pt-5 mt-5"><img src="./images/self-pic.jpg" class="img-fluid rounded-circle" id="self-pic"></div>
+
+		<div class="col-lg-6 order-sm-2 order-lg-1 text-center pt-5 mt-5" id="description">
+			<h3>about me</h3>
+			<p class="ms-2">Hey there! I'm Mikaella Nasam. I'm a starting web developer with great interest in bringing to life the layouts you've all thought of! If there's no layout available, no need to worry because I also dabble on that.</p>
+
+			<em>Just don't have me make the logo</em> 
+
+			<p class="ms-2">I may have just started, but I always give my all. Oh, and I also speak Japanese and play the guitar.</p>
+		</div>
+	</div>	
+	</div>
+
+<!-- Projects -->
+	<div class="projects works" id="works">
+		<div>
+		<h3 class="text-center pt-5">projects</h3>
+		<div class="row d-flex justify-content-around text-center">
+			<div class="col-lg-3 col-sm-12 mt-5" id="cards"><a href="../s10/activity/index.html"><img src="./images/Card-1.png" class="img-fluid" id="card-1"></a></div>
+			<div class="col-lg-3 col-sm-12 mt-5" id="cards"><a href="../s10/activity/index.html"><img src="./images/Card-2.png" class="img-fluid" id="card-2"></a></div>
+			<div class="col-lg-3 col-sm-12 mt-5" id="cards"><a href="../s10/activity/index.html"><img src="./images/Card-3.png" class="img-fluid" id="card-3"></a></div>
+		</div>
+		<h3 class="text-center pt-5">can't go anywhere? we're under construction</h3>
+		</div>
+	</div>
+
+
+<!-- Contact Form -->
+
+	<div class="contact inquiry" id="inquiry">
+		<h2 class="pt-5 ms-lg-5">hi there</h2>
+		<div class="d-inline-block p-3">
+			<!-- Form Start-->
+			<form>
+			<div class="w-150" id="form-edit">
+				<div class="mb-3 ms-lg-5">
+				  <label for="formGroupExampleInput" class="form-label">Name</label>
+				  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+				</div>
+				<div class="mb-3 ms-lg-5">
+				  <label for="formGroupExampleInput2" class="form-label">E-mail address</label>
+				  <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="name@example.com">
+				</div>
+				<div class="mb-3 ms-lg-5">
+				  <label for="formGroupExampleInput3" class="form-label">Contact Number</label>
+				  <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="+63 900 000 0000">
+				</div>
+				<div>
+				<label class="ms-lg-5">Concern</label>
+				<select class="form-select ms-lg-5" aria-label="Default select example">
+				  <option selected>Please choose one</option>
+				  <option value="1">Quotation</option>
+				  <option value="2">Appointment</option>
+				  <option value="3">Follow Up</option>
+				</select>
+				
+				<label for="text-area" class="ms-lg-5">Messsage Me</label>
+				  <textarea class="form-control ms-lg-5" id="text-area" rows="5" cols="20"></textarea>
+				  <input class="button ms-lg-5 mt-4" id="contact-button" type="submit" value="Submit">
+				</div>
+			</div>
+			</form>
+			<!-- Form End-->
+		</div>
+
+
+<!-- footer -->
+	<footer class="socials text-center">
+		<span><a href="https://www.instagram.com/mikouhai">
+		Instagram
+		</a></span>
+
+		<span><a href="https://www.linkedin.com/in/mikaella-nasam-679185137/">
+		Linked In
+		</a></span>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
