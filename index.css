@@ -185,14 +185,13 @@ nav {
 }
 
 /*Contact*/
-
 .contact {
-	background-color: #806454;
-	min-height: 80vh;
+	background-color: #806456;
+	min-height: 90vh;
 	min-width: 100vw;
 }
 
-.contact h2 {
+.contact-head {
 	font-family: 'Racing Sans One',sans-serif;
 	font-size: 10vh;
 	letter-spacing: 10px;
@@ -201,50 +200,61 @@ nav {
 	-webkit-text-stroke: 1px #DD9352;
 }
 
-form > label {
-	font-family: 'Playfair-Display', sans-serif;
-	color: #DD9352;
+figure {
+	font-family: 'Playfair Display', sans-serif;
+	font-style: italic;
+	color: #DFD0C7;
 }
 
-#form-edit {
-	font-family: 'Playfair-Display', sans-serif;
-	color: #DD9352;
+.blockquote-footer {
+	color: #DFD0C7;
 }
 
-#contact-button {
+.contact h4 {
+	font-family: 'Playfair Display', sans-serif;
+	font-style: italic;
+	color: #DFD0C7;
+}
+
+.contact h5 {
+	font-family: 'Playfair Display', sans-serif;
+	color: #DFD0C7;
+}
+
+.contact button {
 	background-color: #A91643;
-	color: white;
-	border-radius: 40px;
-	font-family: 'Playfair Display',sans-serif;
+	width: 150px;
+	height: 45px;
+	font-family: 'Playfair Display', sans-serif;
+	color: #DFD0C7;
 	text-transform: uppercase;
-	font-size: 1vw;
-	width: 8vw;
+	border-radius: 45px;
 	border: none;
 }
 
-
-#contact-button:hover {
+button:hover {
 	background-color: #DD9352;
 	color: black;
 }
 
+.contact label {
+	font-family: 'Playfair Display', sans-serif;
+	text-transform: uppercase;
+	color: #DD9352;
+}
+
+.contact a {
+	text-decoration: none;
+	color: #DD9352;
+}
+
+.contact a:hover {
+	color: white;
+}
 
 /*Footer*/
-.socials a {
-	padding-left: 10px;
-	padding-right: 10px;
-	text-decoration: none;
-	color: #DD9352;
-}
-
-
-.socials a:visited, .socials a:link {
-	color: #DD9352;
-	font-size: 3vh;
-	font-family: 'Playfair Display',sans-serif;
-	text-decoration: none;
-}
-
-.socials a:hover {
-	color: white;*/
+footer {
+	background-color: #A91643;
+	color: white;
+	text-align: center;
 }
